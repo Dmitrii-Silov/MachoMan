@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../../fonts/iconfont/icons.eot?by7o98');
+  src:  url('../../fonts/iconfont/icons.eot?by7o98#iefix') format('embedded-opentype'),
+    url('../../fonts/iconfont/icons.ttf?by7o98') format('truetype'),
+    url('../../fonts/iconfont/icons.woff?by7o98') format('woff'),
+    url('../../fonts/iconfont/icons.svg?by7o98#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-mail:before {
+  content: "\ea83";
+}
+.icon-facebook:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-telegram:before {
+  content: "\ea95";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-vk:before {
+  content: "\ea98";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
